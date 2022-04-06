@@ -11,10 +11,16 @@ public:
 
     bool load(std::string name);
 
+    bool save();
+
+    bool resize(int w, int h);
+
 private:
     int width, height;
-    char *buffer;
+    int *buffer;
     std::string name;
+    char channels;
+    char depth;
 };
 
 
