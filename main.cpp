@@ -10,5 +10,7 @@ int main() {
         std::cout << "show image: " << imgName << std::endl;
     else
         std::cerr << "image:" << imgName << " not readable." << std::endl;
+    int count;
     return 0;
+    //blablablalbaalbakerkgn
 }
